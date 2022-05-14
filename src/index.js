@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './resetCounter/App';
-import MovieApp from './MovieApp';
+import App from './App';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   //App is use to render reset counter App
-  //<App/>
-  <MovieApp></MovieApp>
+  <App/>
+  
 );
 
